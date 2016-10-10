@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="analogsea.css">
 </head>
 	<title>AnalogSea Signup</title>
+	<meta name="analogsea signup" charset="utf-8">
 </head>
 <body>
+	<img src="images/analogsealogo.png" alt="Company Logo" >
 	<form class="demo-form" action="/signup/" method="post">
-		<h1>Join Us as we Sail the AnalogSea</h1>
+		<h1>Sign Up</h1>
 			
 			<fieldset name="contact-info">
-			<h3>Give us your info<h3>
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" />
+				<label for="email">Email</label><br>
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" required /><br>
+				<label for="password">Password</label><br>
+				<input type="password" name="password" id="password" placeholder="1234passw0rd" required />
+			
 
-			<label for="password">Password</label>
-			<input type=""
-		
-
-	
-
+			
+				<button type="submit">Sign up</button>
+				<a class="forgot" href="/forgot-password/new">Forgot Password?</a>
+			
+			</fieldset>		
 	</form>
+	<div class="already">
+		<p>Already have an account? <a href="/login"> Log in</a> 
+	</div>
 </body>
 </html>

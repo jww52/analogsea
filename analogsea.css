@@ -1,0 +1,104 @@
+* {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+body {
+	background: #3796e1;
+	font-family: 'Roboto', helvetica, sans-serif;
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 35px;
+
+}
+
+form {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 2%;
+	
+}
+
+h1 {
+	text-align: center;
+	vertical-align: middle;
+	height: 75px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	margin-right: auto;
+	margin-left:auto;
+
+}
+
+fieldset {
+	align-content: center;
+	border: none;
+	display: block;
+	
+}
+
+input {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 320px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid lightgrey;
+	border-radius: 2%;
+}
+
+
+
+button {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	background-color: #5cc47a;
+	color: white;
+	font-size: 35px;
+	line-height: 20px;
+
+	border-radius: 2%;
+
+}
+
+button:hover {
+	filter: brightness(60%);
+}
+
+.forgot {
+	display: block;
+	text-align: center;	
+	color: lightgrey;
+	padding-bottom: 20px;
+}
+
+.already {
+	text-align: center;
+	color:white;
+}
+
+a[href*="/login"] {
+	color: white;
+}
